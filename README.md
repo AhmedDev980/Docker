@@ -49,17 +49,17 @@ It will connect to docker deamon in Docker HOst and then Docker Deamon will conn
 # COMMANDS
 # Docker Container Commands
 docker ps
-Lists running containers.
+ -Lists running containers.
 
 docker ps -a: Lists all containers (running and stopped).
 
 docker ps -q: Lists only the container IDs of running containers.
 
 docker run <image>
- Creates and starts a new container from a specified image.
+ -Creates and starts a new container from a specified image.
 
 docker stop <container_id>
- Stops a running container.
+ -Stops a running container.
 
 docker start <container_id>
  Starts a stopped container.
